@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  max-width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: normal;
+  background-color: aquamarine;
+  padding: 20px 0;
+  color: #000;
+  border-radius: 50px;
+}
+.clock {
+  padding: 20px 0;
+  font-size: 25px;
+  text-align: center;
+  font-family: cursive;
+}
+.main {
+  padding: 50px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+input,
+button {
+  padding: 20px 50px;
+  border-radius: 5px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: cadetblue;
+  color: black;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+  border: 0;
+}
+button:hover {
+  opacity: 1;
+}
+table {
+  max-width: 100%;
+  text-align: center;
+  margin-left: 15%;
+  padding: 10px;
+  border: 1px solid cadetblue;
+  margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  table {
+    margin-left: 5%;
+  }
+}
+td {
+  padding: 10px;
+  border: 1px solid cadetblue;
+}
